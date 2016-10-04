@@ -14,7 +14,7 @@ int main()
 	 * c = SUM - a - b
 	 *
 	 * a^2 + b^2  = (SUM - a - b)^2
-	 * ... obvius transformations
+	 * ... obvious transformations
 	 * 2*SUM*a - SUM^2 = 2b*(a-SUM)
 	 * b = SUM*(2a - SUM)/2(a-SUM)  and must be an integer and a < SUM so a < SUM/2 for b to be positive
 	 *
