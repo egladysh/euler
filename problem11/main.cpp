@@ -40,8 +40,7 @@ typename It::value_type max_product(It start, It end, int product_size)
 
 	int cnt = 1;
 	for(It it = start; it != end; ++it, ++cnt) {
-		if( *it == 0 ) //no point to continue with 0
-		{
+		if(*it == 0) { //no point to continue with 0
 			cnt = 0;
 			v = 1;
 			block_start = it;
